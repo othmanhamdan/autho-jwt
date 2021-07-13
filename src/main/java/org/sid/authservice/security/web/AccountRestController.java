@@ -84,7 +84,7 @@ public class AccountRestController {
             }
     @GetMapping(value = "/testJenkins")
     public String testJenkins(){
-        return "test avec jenkins sur l'application de spring security avec JWT";
+        return "test avec jenkins sur l'application";
     }
 
 }
