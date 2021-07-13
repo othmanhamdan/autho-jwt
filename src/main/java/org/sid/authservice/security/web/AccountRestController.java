@@ -82,6 +82,11 @@ public class AccountRestController {
              }
 
             }
+    @GetMapping(value = "/testJenkins")
+    public String testJenkins(){
+        return "test avec jenkins sur l'application de spring security";
+    }
+
 }
 @Data
 class AddUserToRoleForm{
